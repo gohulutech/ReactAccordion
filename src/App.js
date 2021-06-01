@@ -7,7 +7,7 @@ const items = [
     content: "React is a front end javascript framework",
   },
   {
-    title: "Why is React?",
+    title: "Why use React?",
     content: "React is a favorite js library among engineers",
   },
   {
@@ -16,10 +16,12 @@ const items = [
   },
 ];
 
-export default () => {
+const App = () => {
   return (
     <div>
       <Accordion items={items} />
     </div>
   );
 };
+
+export default App;

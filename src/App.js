@@ -1,5 +1,6 @@
 import React from "react";
-import Accordion from "./components/Accordion";
+// import Accordion from "./components/Accordion";
+import Search from "./components/Search";
 
 const items = [
   {
@@ -19,9 +20,11 @@ const items = [
 const App = () => {
   return (
     <div>
-      <Accordion items={items} />
+      <Search />
     </div>
   );
 };
 
 export default App;
+
+// en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=PROGRAMMING

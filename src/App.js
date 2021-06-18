@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 // import Accordion from "./components/Accordion";
-import Search from "./components/Search";
+// import Search from "./components/Search";
+// import Dropdown from "./components/Dropdown";
+import Translate from "./components/Translate";
 
 const items = [
   {
@@ -17,14 +19,18 @@ const items = [
   },
 ];
 
+const options = [
+  { label: "The Color Red", value: "red" },
+  { label: "The Color Green", value: "green" },
+  { label: "The Color Blue", value: "blue" },
+];
+
 const App = () => {
   return (
     <div>
-      <Search />
+      <Translate />
     </div>
   );
 };
 
 export default App;
-
-// en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=PROGRAMMING
